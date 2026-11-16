@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jun Ma, PhD</title>
+<meta name="description" content="Jun Ma is a Scientist at Princess Margaret Cancer Centre, Machine Learning Lead at the UHN AI Hub and Assistant Professor of Medical Biophysics at the University of Toronto. His research develops AI for biomedical imaging and precision cancer care.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jun Ma, PhD">
+<meta property="og:description" content="AI for biomedical imaging and precision cancer care: medical image foundation models, multimodal models, agentic systems and benchmarks.">
+<meta property="og:image" content="images/profile/jun-ma.jpg">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  /* Content files in /content add their data to SITE. Problems loading them are noted here
+     so the page can say which file to check. */
+  window.SITE = {};
+  window.SITE_ERRORS = [];
+  window.addEventListener('error', function (e) {
+    if (e && e.filename) window.SITE_ERRORS.push({ file: e.filename, line: e.lineno, message: e.message });
+    else if (e && e.target && e.target.src) window.SITE_ERRORS.push({ file: e.target.src, message: 'This file could not be found.' });
+  }, true);
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="container masthead-inner">
+    <nav class="tabs-nav" aria-label="Main">
+      <ul class="tabs" id="tabs"></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="container" id="app">
+    <noscript>
+      <h1 class="page-title">Jun Ma, PhD</h1>
+      <p>Scientist at Princess Margaret Cancer Centre, Machine Learning Lead at the UHN AI Hub, and Assistant Professor in the Department of Medical Biophysics at the University of Toronto.</p>
+      <p>Email: jun dot ma2 at uhn dot ca. Publications: <a href="https://scholar.google.com/citations?user=bW1UV4IAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+      <p>This site needs JavaScript to show its Research, Resources and Publications tabs.</p>
+    </noscript>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container" id="footer"></div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+  <div class="lightbox-bar">
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+    <button class="lightbox-close" type="button" aria-label="Close">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 14 14" width="14" height="14"><path d="M2 2l10 10M12 2 2 12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+  </div>
+  <div class="lightbox-stage" id="lightbox-stage"></div>
+</dialog>
+
+<!-- Content: edit these files to update the site (see README.md). -->
+<script src="content/site.js"></script>
+<script src="content/home.js"></script>
+<script src="content/research.js"></script>
+<script src="content/resources.js"></script>
+<script src="content/publications.js"></script>
+
+<!-- Renderer: turns the content above into pages. -->
+<script src="assets/app.js"></script>
+</body>
+</html>
