@@ -17,7 +17,7 @@ SITE.home = {
   //          (as the email is, so the address is not left in the page for spam robots);
   //          an entry with neither is hidden.
   links: [
-    { label: "Email", icon: "email", text: "jun dot ma2 at uhn dot ca", url: "" },
+    { label: "Email", icon: "images/icons/outlook.png", text: "jun dot ma2 at uhn dot ca", url: "" },
     { label: "Google Scholar", icon: "images/icons/google-scholar.png", url: "https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en" },
     { label: "GitHub", icon: "images/icons/github.png", url: "https://github.com/JunMa11" },
     { label: "X", icon: "images/icons/x.png", url: "https://x.com/JunMa_AI4Health" },
@@ -31,6 +31,8 @@ SITE.home = {
 Welcome to my homepage! I am a Scientist at Princess Margaret Cancer Centre, Machine Learning Lead at the UHN AI Hub, and Assistant Professor in the Department of Medical Biophysics at the University of Toronto. I received my PhD in Mathematics from Nanjing University of Science and Technology in 2021, supervised by [Prof. Xiaoping Yang](https://math.nju.edu.cn/en/People/Faculty/20200501/i74493.html). From 2021 to 2024, I was a Postdoctoral Fellow at the University of Toronto, the Vector Institute, and the Peter Munk Cardiac Centre, working with [Prof. Bo Wang](https://scholar.google.ca/citations?user=37FDILIAAAAJ&hl=en).
 
 My research focuses on developing cutting-edge algorithms for accurate and efficient biomedical image parsing, with the goal of enabling precise cancer analysis and personalized patient care. As first author, I placed in the top three in more than 10 international medical image analysis challenges during my PhD and postdoctoral training. I have also built large-scale benchmarks and organized international competitions, including the MICCAI FLARE (Fast, Low-resource, Accurate, Robust, and Effectual Medical Image Analysis) Challenges and the CVPR challenges on foundation models for medical image analysis.
+
+I am very fortunate to work with many amazing researchers and students. We are always looking for talented individuals to join the FLARE Lab. If you are interested, please feel free to contact me by email.
 `,
 
   // News, shown under the bio. Newest first, one item per line:
