@@ -5,7 +5,7 @@
 SITE.site = {
   name: "Jun Ma",          // used in the footer line "© 2026 Jun Ma"
   title: "Jun Ma, PhD",    // shown in the browser tab
-  headerName: "",          // optional text at the left of the blue header; leave empty for none
+  headerName: "FLARE Lab", // shown in white at the left of the blue header; leave empty for none
 
   // The tabs across the top, in order.
   // Each "id" has a matching file in this folder: content/<id>.js

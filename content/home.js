@@ -18,10 +18,11 @@ SITE.home = {
   //          an entry with neither is hidden.
   links: [
     { label: "Email", icon: "email", text: "jun dot ma2 at uhn dot ca", url: "" },
-    { label: "Google Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en" },
-    { label: "GitHub", icon: "code", url: "https://github.com/JunMa11" },
-    { label: "X", icon: "chat", url: "https://x.com/JunMa_AI4Health" },
-    { label: "LinkedIn", icon: "briefcase", url: "https://www.linkedin.com/in/jun-ma-867b34224/" },
+    { label: "Google Scholar", icon: "images/icons/google-scholar.png", url: "https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en" },
+    { label: "GitHub", icon: "images/icons/github.png", url: "https://github.com/JunMa11" },
+    { label: "X", icon: "images/icons/x.png", url: "https://x.com/JunMa_AI4Health" },
+    { label: "LinkedIn", icon: "images/icons/linkedin.png", url: "https://www.linkedin.com/in/jun-ma-867b34224/" },
+    { label: "Hugging Face", icon: "images/icons/huggingface.png", url: "https://huggingface.co/FLARE-MedFM" },
   ],
 
   // Bio. Leave a blank line between paragraphs.
@@ -37,6 +38,7 @@ My research focuses on developing cutting-edge algorithms for accurate and effic
   // To add an item, add a line at the top. To hide the section, delete every line.
   newsTitle: "News",
   news: `
+10/2026: [Tissue Clocks](https://ryanwkha.github.io/tissue-clocks-minicourse/) mini-course won 2nd place in the [MICCAI Educational Challenge](https://miccai-sb.github.io/materials.html)
 10/2026: MICCAI 2026 [FLARE Challenges](https://flare-medfm.github.io/)
 09/2026: [MedJev](https://github.com/JunMa11/MedJev) for Ultra-fast Clinical Variable Extraction from Free-text Notes
 06/2026: CVPR 2026 Workshop on [Foundation Models for Medical Vision](https://fmv-cvpr26workshop.github.io/) (recordings are available)
