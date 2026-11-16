@@ -60,11 +60,10 @@ In `content/resources.js`, copy one `{ ... }` item, paste it into the right sect
 To show a demo video beside an item, save the file in `videos/` and add:
 
 ```js
-video: "videos/medsam2-demo.mp4",
-poster: "videos/medsam2-demo.jpg",   // optional still image shown before the video plays
+video: "videos/your-demo.mp4",
+poster: "videos/your-demo.jpg",        // optional still image shown before the video plays
+videoCaption: "One line about what the video shows.",   // optional
 ```
-
-MedSAM2 and MedJev already have these two lines, commented out. Add the video files and remove the `//`.
 
 ## Add a new tab
 

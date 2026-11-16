@@ -58,8 +58,9 @@ SITE.resources = {
           name: "MedSAM2",
           url: "https://github.com/bowang-lab/MedSAM2",
           description: "Segment anything in 3D medical images and videos. A promptable foundation model trained on more than 455,000 3D image–mask pairs and 76,000 video frames, spanning CT, PET, MRI, ultrasound, and endoscopy.",
-          // video: "videos/medsam2-demo.mp4",     // add the demo video here once the file is in videos/
-          // poster: "videos/medsam2-demo.jpg",
+          video: "videos/MedSAM2.mp4",
+          poster: "videos/MedSAM2.jpg",
+          videoCaption: "MedSAM2 segmenting organs and lesions in CT and MRI scans and in endoscopy and ultrasound videos.",
           links: [
             { label: "Project Page and Demos", url: "https://medsam2.github.io/" },
             { label: "Paper", url: "https://doi.org/10.48550/arXiv.2504.03600" },
@@ -69,8 +70,9 @@ SITE.resources = {
           name: "MedJev",
           url: "https://github.com/JunMa11/MedJev",
           description: "Ultra-fast extraction of clinical variables from free-text notes. A compact model that turns clinical notes into table-ready data and runs on a single consumer GPU inside the hospital network, so patient text never leaves it.",
-          // video: "videos/medjev-demo.mp4",      // add the demo video here once the file is in videos/
-          // poster: "videos/medjev-demo.jpg",
+          video: "videos/MedJev.mp4",
+          poster: "videos/MedJev.jpg",
+          videoCaption: "MedJev's accuracy on each clinical variable, compared live with two other models.",
         },
         {
           name: "MICCAI-OpenSourcePapers",
